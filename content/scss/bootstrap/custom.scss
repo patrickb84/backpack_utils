@@ -1,0 +1,62 @@
+// $success: #18bc9c;
+
+// $link-color: $success;
+// $navbar-dark-hover-color: $success;
+
+$theme-colors: (
+  'gray-100': #f8f9fa,
+  'gray-200': #e9ecef,
+  'gray-300': #dee2e6,
+  'gray-400': #ced4da,
+  'gray-500': #adb5bd,
+  'gray-600': #6c757d,
+  'gray-700': #495057,
+  'gray-800': #343a40,
+  'gray-900': #212529,
+  'primary': #357EDD,
+  'secondary': #555555,
+  'success': #19a974,
+  'danger': #df4759,
+  'warning': #fad776,
+  'info': #a463f2,
+  'white': #fff,
+  'light': #eeeeee,
+  'dark': #001b44,
+  'black': #000,
+);
+
+$body-color: #001b44;
+
+// style 1
+$style1: (
+  'secondary': #506690,
+  'success': #42ba96,
+  'danger': #df4759,
+  'warning': #fad776,
+  'info': #7c69ef,
+  'white': #fff,
+  'light': #f9fbfd,
+  'dark': #1b2a4e,
+  'black': #000,
+);
+
+$style2: (
+  'primary': #2c3e50,
+  'secondary': #95a5a6,
+  'success': #18bc9c,
+  'info': #3498db,
+  'warning': #fad776,
+  'danger': #e74c3c,
+  'white': #fff,
+  'light': #ecf0f1,
+  'dark': #7b8a8b,
+  'black': #000,
+);
+
+$enable-responsive-font-sizes: true;
+
+$navbar-nav-link-padding-x: 0.75rem !default;
+
+// @import './theme/variables';
+@import './bootstrap.scss';
+// @import './theme/bootswatch';
